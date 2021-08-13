@@ -3,8 +3,8 @@
 
 * Programs
 Install the following programs:
-- Emacs
-- Vim
+- emacs
+- vim
 - zsh
 - sxhkd
 - bspwm
