@@ -1,0 +1,12 @@
+set format_current=   %n. %t%=  %a  %l    
+set format_playlist=%3n. %t %=  %-15a  %-15l   %d    
+set format_title=TITLE
+set format_trackwin=%3n. %t%=  %d 
+
+set format_statusline= %{status} %t%= %1{follow}%1{repeat}%1{shuffle} %{?show_playback_position?%{position} %{?duration?/ %{duration} }?%{?duration?%{duration} }} 
+
+set confirm_run=true
+set aaa_mode=all
+set buffer_seconds=10
+set show_hidden=false
+set set_term_title=false
