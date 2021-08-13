@@ -1,10 +1,6 @@
 #+TITLE: README
 #+AUTHOR: Raynei
 
-* Table of Contents :TOC:
-- [[#programs][Programs]]
-- [[#how-to-install][How to install]]
-
 * Programs
 Install the following programs:
 - Emacs
