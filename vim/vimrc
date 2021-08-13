@@ -1,0 +1,14 @@
+" Basic stuff
+set nocompatible
+syntax enable
+set nu relativenumber
+colorscheme gruvbox
+set background=dark
+filetype plugin on
+
+" Make matching parentheses red
+hi MatchParen cterm=bold ctermbg=none ctermfg=red
+
+" Clipboard
+set clipboard=unnamedplus
+

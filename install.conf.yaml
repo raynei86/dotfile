@@ -1,0 +1,45 @@
+- defaults:
+  link:
+    relink: true
+
+
+- create:
+    - ~/Pictures
+
+
+- link:
+  ~/.vim:
+    path: vim
+
+  ~/.vimrc:
+    relink: true
+    force: true
+    path: vim/vimrc
+
+  ~/.config/zsh/.zshrc:
+    force: true
+    path: zsh/zshrc
+
+  ~/.zshenv:
+    path: zsh/zshenv
+
+  ~/.doom.d:
+    path: emacs
+
+  ~/.config/:
+    path: dotconf/config/**
+
+  ~/Pictures/yuugure.png:
+    path: yuugure.png
+
+  ~/:
+    glob: true
+    path: dotconf/*
+    prefix: '.'
+
+
+- clean: ['~']
+
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

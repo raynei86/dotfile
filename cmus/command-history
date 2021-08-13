@@ -1,0 +1,14 @@
+colorscheme gruvbox_redux
+colorscheme gruvbox-redux
+colorscheme gruvbox-dark
+bind -f common d shell crp-rust
+bind -u common d shell crp-rust
+bind -f d shell crp-rust
+bind -f common d shell cmus-discord-rpc
+shell ls
+live-filter none
+live-filter a
+live-filter 
+bind -f common u shell ~/.config/cmus/updatelib.sh
+add Music/
+add ~/Music/
