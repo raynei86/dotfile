@@ -1,0 +1,30 @@
+#+TITLE: README
+#+AUTHOR: Raynei
+
+* Table of Contents :TOC:
+- [[#programs][Programs]]
+- [[#how-to-install][How to install]]
+
+* Programs
+Install the following programs:
+- Emacs
+- Vim
+- zsh
+- sxhkd
+- bspwm
+- rofi
+- polybar
+- newsboat
+- cmus
+- alacritty
+- dunst
+
+* How to install
+My dotfiles are installed with [[https://github.com/anishathalye/dotbot][dotbot]]. It makes the installation process as simple as:
+#+BEGIN_SRC shell
+git clone --recurse-submodules https://github.com/raynei86/dotfile.git
+cd dotfiles
+./install
+#+END_SRC
+dotbot will take care of all the symlinks and place the config in their proper directories.
+
