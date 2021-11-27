@@ -1,13 +1,15 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+(setq user-full-name "Raynei"
+      user-mail-address "raynei@protonmail.com")
 
-(setq doom-font (font-spec :family "Hack" :size 20)
-      doom-variable-pitch-font (font-spec :family "Ubuntu" :size 20)
+(setq doom-font (font-spec :family "Hack" :size 23)
+      doom-variable-pitch-font (font-spec :family "Ubuntu" :size 23)
       doom-big-font (font-spec :family "Hack" :size 26))
 
-(setq doom-theme 'doom-gruvbox)
+(setq doom-theme 'doom-molokai)
 
-(setq org-directory "~/Org/")
+(setq display-line-numbers-type 'relative)
 
-(setq display-line-numbers-type t)
+(setq org-directory "~/Org")
 
-(add-hook 'c-mode-common-hook #'clang-format+-mode)
+(map! :map global-map "C-x m" #'man)
