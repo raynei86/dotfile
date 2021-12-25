@@ -16,12 +16,9 @@
     force: true
     path: vim/vimrc
 
-  ~/.config/zsh/.zshrc:
+  ~/.config/fish/conf.fish:
     force: true
-    path: zsh/zshrc
-
-  ~/.zshenv:
-    path: zsh/zshenv
+    path: fish/conf.fish
 
   ~/.doom.d:
     path: emacs
