@@ -49,5 +49,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
-(package! pdf-tools :disable t)
-(package! clang-format+)
+(package! meson-mode)
+(package! haskell-mode)
+(package! basic-mode)
