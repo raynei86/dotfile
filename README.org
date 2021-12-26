@@ -14,7 +14,7 @@ Install the following programs:
 - dunst
 
 * How to install
-Do this in the home directory because the install script (by me) assumes that you are in the home directory
+Do this in the home directory because the install script (by me, a terrible shell scripter) assumes that you are in the home directory
 #+BEGIN_SRC shell
 git clone https://github.com/raynei86/dotfile.git
 cd dotfiles
