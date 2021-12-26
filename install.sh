@@ -21,6 +21,7 @@ mkdir -p .config/scripts
 
 # Move the stuff into their place
 mv ~/dotfile/emacs/* ~/.doom.d
+mv ~/.dotfile/vim/vimrc ~/.vimrc
 mv ~/dotfile/vim/* ~/.vim
 mv ~/dotfile/bspwm/* ~/.config/bspwm
 mv ~/dotfile/sxhkd/* ~/.config/sxhkd
