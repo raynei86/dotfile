@@ -1,6 +1,3 @@
-#+TITLE: README
-#+AUTHOR: Raynei
-
 * Screenshots
 [[Pics/2022-02-18_17-02-1645222554.png]]
 [[Pics/2022-02-18_17-02-1645222550.png]]
