@@ -1,6 +1,12 @@
 #+TITLE: README
 #+AUTHOR: Raynei
 
+* Screenshots
+[[Pics/2022-02-18_17-02-1645222554.png]]
+[[Pics/2022-02-18_17-02-1645222550.png]]
+[[Pics/2022-02-18_17-02-1645222797.png]]
+[[Pics/2022-02-18_17-02-1645222933.png]]
+
 * Programs
 Install the following programs:
 - emacs
