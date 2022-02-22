@@ -16,6 +16,7 @@
 #define base0D #66d9ef
 #define base0E #ae81ff
 #define base0F #cc6633
+#define background_opacity 90
 
 *.foreground:   base05
 #ifdef background_opacity
@@ -64,26 +65,23 @@ URxvt.boldItalicfont: xft:Hack Nerd Font Mono:style=Bold Italic:size=17
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
-!URxvt.internalBorder: 12
+URxvt.internalBorder: 12
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: false
-URxvt.depth: 0
+URxvt.depth: 32
 URxvt.iso14755: false
 
 !! Copy Paste & Other Extensions
-URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.perl-ext-common: default,clipboard,url-select
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 URxvt.keysym.Control-Shift-C: perl:clipboard:copy
 URxvt.keysym.Control-Shift-V: perl:clipboard:paste
 URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-s: perl:keyboard-select:search
-URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: vivaldi-stable
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
