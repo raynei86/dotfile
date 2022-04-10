@@ -13,7 +13,7 @@ Install the following programs:
 - bspwm
 - rofi
 - polybar
-- alacritty
+- Luke Smith's fork of st
 - dunst
 
 * How to install
